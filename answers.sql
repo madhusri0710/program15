@@ -1,12 +1,12 @@
-Assume 40 marks is the pass mark.
-SET SERVEROUTPUT ON;
-DECLARE
-marks NUMBER := 65;
-BEGIN
-IF marks &gt;= 40 THEN
-DBMS_OUTPUT.PUT_LINE(&#39;Student has Passed&#39;);
-ELSE
-DBMS_OUTPUT.PUT_LINE(&#39;Student has Failed&#39;);
-END IF;
-END;
-/
+ PL/SQL IF-ELSE AUTOGRADING
+==========================================
+PASS: answers.sql found.
+PASS: SET SERVEROUTPUT ON found.
+PASS: DECLARE found.
+PASS: marks NUMBER found.
+PASS: IF statement found.
+PASS: THEN found.
+PASS: ELSE found.
+PASS: END IF found.
+FAIL: marks >= 50 not found.
+Error: Process completed with exit code 1.
